@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'modeloEvasao'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DCC49257075A46A0BB3E366DC1532C0B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_831001813F5A47128C342094E8E47914 }}
           package: .
