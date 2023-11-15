@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ];
     
     // Enviar dados para a API Python
-    $url = 'http://81997ade-a1ac-4252-82da-2cd1629ebb1a.southcentralus.azurecontainer.io/score';  // Substitua pela URL da sua API
+    $url = 'https://81997ade-a1ac-4252-82da-2cd1629ebb1a.southcentralus.azurecontainer.io/score';  // Substitua pela URL da sua API
     
     $context = stream_context_create($options);
     $resultado_api = file_get_contents($url, false, $context);
